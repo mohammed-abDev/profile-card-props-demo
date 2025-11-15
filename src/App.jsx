@@ -7,7 +7,21 @@ import Card from "./component/Card";
 function App() {
 
   return (
-    
+    <div className="card-grid">
+      <Card
+        img={chaltuImg}
+        name="Chaltu"
+        age="25 years old"
+        role="DevOps Engineer"
+      />
+      <Card
+        img={haileImg}
+        name="Hile"
+        age="28 years old"
+        role="MERN Developer"
+      />
+      <Card img={julitImg} name="julit" age="27 years old" role="QA / Tester" />
+    </div>
   );
 }
 
